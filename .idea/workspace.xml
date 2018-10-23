@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70a0a4a9-c256-4e69-bb04-1002f6914545" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/backup/moodle2/backup_certificate_activity_task.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/backup/moodle2/backup_certificate_settingslib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/backup/moodle2/backup_certificate_stepslib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/backup/moodle2/restore_certificate_activity_task.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/backup/moodle2/restore_certificate_stepslib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/classes/admin_setting_font.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/classes/admin_setting_upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/classes/event/course_module_instance_list_viewed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/classes/event/course_module_viewed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/classes/external.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/db/access.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/db/install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/db/log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/db/mobile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/db/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/db/upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/deprecatedlib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/lang/en/certificate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/lib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/locallib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/mobile/mod_certificate.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/mod_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy1-black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy1-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy1-brown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy1-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy2-black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy2-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy2-brown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/borders/Fancy2-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/seals/Fancy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/seals/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/seals/Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/seals/Quality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/seals/Teamwork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/signatures/Line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/signatures/RVincent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/watermarks/Crest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/pix/watermarks/Fleursdelis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/report.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/review.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/tests/generator/lib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/tests/generator_test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/type/A4_embedded/certificate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/type/A4_non_embedded/certificate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/type/letter_embedded/certificate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/type/letter_non_embedded/certificate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/upload_image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/upload_image_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificate/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/amd/build/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/amd/src/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/assign_permission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/backup/moodle2/backup_certificateuv_activity_task.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/backup/moodle2/backup_certificateuv_settingslib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/backup/moodle2/backup_certificateuv_stepslib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/backup/moodle2/restore_certificateuv_activity_task.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/backup/moodle2/restore_certificateuv_stepslib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/classes/admin_setting_font.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/classes/admin_setting_upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/classes/event/course_module_instance_list_viewed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/classes/event/course_module_viewed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/classes/external.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/db/access.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/db/install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/db/log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/db/mobile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/db/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/db/upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/deprecatedlib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/lang/en/certificateuv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/lang/es/certificateuv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/lib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/locallib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/mobile/mod_certificate.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/mod_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy1-black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy1-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy1-brown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy1-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy2-black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy2-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy2-brown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/Fancy2-green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/dintev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/borders/dintev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/icon2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/seals/Fancy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/seals/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/seals/Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/seals/Quality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/seals/Teamwork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/signatures/29116560.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/signatures/31970906.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/signatures/98373438.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/signatures/Line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/signatures/admin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/signatures/directora.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/watermarks/Crest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/watermarks/Fleursdelis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/pix/watermarks/logo_univalle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/report.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/review.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/tests/generator/lib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/tests/generator_test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/type/Dintev/certificate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/upload_image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/upload_image_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod/certificateuv/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/managers/grade_manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/managers/grade_manager.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1944268230">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+          <entry key="mustache" value="1" />
+          <entry key="php" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Handlebars/Mustache" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="20" />
+          <entry key="php" value="2811" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="20" />
+          <entry key="PHP" value="2811" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/managers/grades_api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/managers/grade_manager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amd/src/attendance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+              <folding>
+                <element signature="e#1376#1479#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-565">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/managers/attendance_server_proc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/managers/attendance_manager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="68" column="70" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gra</find>
+      <find>print_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/managers/array_test.php" />
+        <option value="$PROJECT_DIR$/amd/src/attendance.js" />
+        <option value="$PROJECT_DIR$/managers/grades_api.php" />
+        <option value="$PROJECT_DIR$/managers/grade_manager.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="y" value="31" />
+    <option name="width" value="1926" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="categoryreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categoryreports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="categoryreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categoryreports" type="462c0819:PsiDirectoryNode" />
+              <item name="amd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="categoryreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categoryreports" type="462c0819:PsiDirectoryNode" />
+              <item name="managers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="categoryreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categoryreports" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="categoryreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70a0a4a9-c256-4e69-bb04-1002f6914545" name="Default Changelist" comment="" />
+      <created>1540310321157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540310321157</updated>
+      <workItem from="1540310325386" duration="8437000" />
+      <workItem from="1540325281298" duration="8491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16928000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11140725" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/managers/array_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="67" selection-start-line="2" selection-start-column="6" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/managers/attendance_server_proc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/managers/attendance_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="68" column="70" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amd/src/attendance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+          <folding>
+            <element signature="e#1376#1479#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/managers/grades_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/managers/grade_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
