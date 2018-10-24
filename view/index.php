@@ -66,6 +66,7 @@ $PAGE->set_heading($pagetitle);
 
 $PAGE->requires->css('/report/categoryreports/styles/bootstrap.min.css', true);
 $PAGE->requires->css('/report/categoryreports/styles/jquery.dataTables.css', true);
+$PAGE->requires->css('/report/categoryreports/styles/styles.css', true);
 
 $PAGE->requires->js_call_amd('report_categoryreports/attendance','init');
 

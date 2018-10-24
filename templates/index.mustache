@@ -30,14 +30,14 @@
 
                     <div class="col-sm-6 col-md-3 col-lg-3">
                         <label for="program_select" class="col-sm-5">Programa: </label>
-                        <select name="program_select" id="program_select" class="col-sm-7">
+                        <select name="program_select" id="program_select" class="col-sm-7 program_select">
                             {{{programs}}}
                         </select>
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <label for="course_select" class="col-sm-4">Curso: </label>
-                        <select name="course_select" id="course_select" class="col-sm-8">
+                        <select name="course_select" id="course_select" class="col-sm-8 course_select">
                             {{{courses}}}
                         </select>
                     </div>
@@ -47,7 +47,11 @@
                     </div>
                 </div>
             </form>
+
+            <hr>
+
             <div class="row" id="div_table">
+
             </div>
         </div>
 
@@ -69,15 +73,15 @@
                     </div>
     
                     <div class="col-sm-6 col-md-3 col-lg-3">
-                        <label for="program_select" class="col-sm-5">Programa: </label>
-                        <select name="program_select" class="col-sm-7" id="program_select">
+                        <label for="program_select_grades" class="col-sm-5">Programa: </label>
+                        <select name="program_select_grades" class="col-sm-7 program_select" id="program_select_grades">
                             {{{programs}}}
                         </select>
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <label for="course_select" class="col-sm-4">Curso: </label>
-                        <select name="course_select" class="col-sm-8" id="course_select">
+                        <select name="course_select" class="col-sm-8 course_select" id="course_select">
                             {{{courses}}}
                         </select>
                     </div>
@@ -87,7 +91,7 @@
                     </div>
                 </div>
             </form>
-
+            <hr>
             <div class="col-sm-12" id="div_grader">
 
             </div>
