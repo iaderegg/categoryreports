@@ -49,7 +49,7 @@ define(['jquery',
                     $('.course_select').html('');
                     if(Object.keys(msg).length > 0){
                         for (var i in msg){
-                            select_courses += "<option value='"+msg[i].id+"'>"+msg[i].fullname+"</option>";
+                            select_courses += "<option value='"+msg[i].id+"'>"+msg[i].shortname+"</option>";
                         };
                         $('.course_select').append(select_courses);
                     }else{

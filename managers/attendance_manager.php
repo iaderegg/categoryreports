@@ -44,7 +44,7 @@ function get_courses_category($id_program, $id_period=null){
 
     global $DB;
 
-    $sql_query = "SELECT id, fullname 
+    $sql_query = "SELECT id, shortname 
                   FROM {course} AS courses 
                   WHERE category = $id_program
                   ORDER BY fullname";
