@@ -30,7 +30,7 @@ define(['jquery',
             });
 
             $('#btn_filter_grades').on('click', {self: self}, function(){
-                self.get_grades(self, $('#course_select').val());
+                self.get_grades(self, $('#course_select_grader').val());
             });
 
         },load_courses: function(object_function, element){

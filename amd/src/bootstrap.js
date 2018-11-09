@@ -17,7 +17,7 @@
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  *
  *
- * @module     blocks_ases/bootstrap
+ * @module     report_categoryreports/bootstrap
  * @class      bootstrap
  * @package    core
  * @copyright  Copyright 2011-2016 Twitter, Inc.

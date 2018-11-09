@@ -62,7 +62,7 @@ function get_global_grade_book($id_curso){
         $doc = new DOMDocument('1.0', 'UTF-8');
         $internalErrors = libxml_use_internal_errors(true);
 
-        $doc->loadHTML($right_rows[1]->cells[$i]->text);
+        $doc->loadHTML($right_rows[2]->cells[$i]->text);
 
         libxml_use_internal_errors($internalErrors);
 
@@ -131,14 +131,14 @@ function get_global_grade_book($id_curso){
 
         }
 
-        array_push( $array_rows, $array_user);
-
+        if($array_user['fullname'] != 'Controles') {
+            array_push($array_rows, $array_user);
+        }
     }
 
     $report_grade = report_grade($array_columns, $array_rows);
 
     return $report_grade;
-
 }
 
 function report_grade($columns, $data){
