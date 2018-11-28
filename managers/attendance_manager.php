@@ -22,6 +22,7 @@
  */
 
 require_once(__DIR__ . '/../../../config.php');
+require_once('lib.php');
 
 function get_programs(){
 
@@ -57,6 +58,8 @@ function get_courses_category($id_program, $id_period=null){
 function get_attendance($id_course){
 
     global $DB;
+
+    $data_to_return = array();
 
     $sql_query = "SELECT id 
                   FROM {attendance}
@@ -166,6 +169,9 @@ function get_attendance($id_course){
         )
     );
 
-    return $data;
+    $data_to_return['table'] = $data;
+    $data_to_return['course_fullname'] = get_course_name($id_course);
+
+    return $data_to_return;
 
 }

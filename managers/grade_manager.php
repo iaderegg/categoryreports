@@ -27,11 +27,14 @@ require_once(__DIR__ . '/../../../config.php');
 require_once $CFG->dirroot . '/grade/lib.php';
 require_once $CFG->dirroot . '/grade/report/user/lib.php';
 require_once $CFG->dirroot . '/grade/report/grader/lib.php';
+require_once('lib.php');
 
 
 function get_global_grade_book($id_curso){
 
     global $USER;
+
+    $data_to_return = array();
 
     $USER->gradeediting[$id_curso] = 1;
 
@@ -138,7 +141,10 @@ function get_global_grade_book($id_curso){
 
     $report_grade = report_grade($array_columns, $array_rows);
 
-    return $report_grade;
+    $data_to_return['table'] = $report_grade;
+    $data_to_return['course_fullname'] = get_course_name($id_curso);
+
+    return $data_to_return;
 }
 
 function report_grade($columns, $data){

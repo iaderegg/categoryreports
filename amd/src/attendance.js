@@ -77,7 +77,10 @@ define(['jquery',
                 success: function(msg){
                     $('#div_table').html('');
                     $('#div_table').fadeIn(1000).append('<table id="table_attendance" class="display" cellspacing="0" width="100%"></table>');
-                    $("#table_attendance").DataTable(msg);
+                    $('#table_attendance').DataTable(msg.table);
+
+                    $('#div_course_title_attendance').html('');
+                    $('#div_course_title_attendance').append('<h3>'+msg.course_fullname+'</h3>');
                 },
                 dataType: "json",
                 cache: "false",
@@ -98,8 +101,10 @@ define(['jquery',
                 success: function(msg){
                     $('#div_grader').html('');
                     $('#div_grader').fadeIn(1000).append('<table id="table_grader" class="display" cellspacing="0" width="100%"></table>');
-                    $("#table_grader").DataTable(msg);
+                    $("#table_grader").DataTable(msg.table);
 
+                    $('#div_course_title_grades').html('');
+                    $('#div_course_title_grades').append('<h3>'+msg.course_fullname+'</h3>');
                 },
                 dataType: "json",
                 cache: "false",
