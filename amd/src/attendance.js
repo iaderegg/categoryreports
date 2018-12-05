@@ -80,7 +80,7 @@ define(['jquery',
                     $('#table_attendance').DataTable(msg.table);
 
                     $('#div_course_title_attendance').html('');
-                    $('#div_course_title_attendance').append('<h3>'+msg.course_fullname+'</h3>');
+                    $('#div_course_title_attendance').append('<a href=""><h3>'+msg.course_fullname+'</h3></a>');
                 },
                 dataType: "json",
                 cache: "false",

@@ -58,7 +58,7 @@ function get_global_grade_book($id_curso){
     $array_columns[0] = array('title' => "Apellido(s)/Nombre(s)", 'name' => "fullname", 'data'=>"fullname");
     $array_columns[1] = array('title' => "Email", 'name' => "email", 'data'=>"email");
 
-    for($i = 0; $i < count($right_rows[1]->cells); $i++){
+    for($i = 0; $i <= count($right_rows[1]->cells); $i++){
 
         $column_object = array();
 

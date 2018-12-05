@@ -70,7 +70,7 @@ function get_attendance($id_course){
     $sql_query = "SELECT statuses.id, statuses.acronym, statuses.description
                   FROM {attendance_statuses} AS statuses
                   INNER JOIN {attendance} AS attendance ON attendance.id = statuses.attendanceid
-                  WHERE attendance.course = $id_course AND statuses.deleted <> 1";
+                  WHERE attendance.course = $id_course AND statuses.deleted <> 1 AND statuses.visible <> 0";
 
     $statuses_array = $DB->get_records_sql($sql_query);
 
