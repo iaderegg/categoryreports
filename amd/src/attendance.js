@@ -80,7 +80,7 @@ define(['jquery',
                     $('#table_attendance').DataTable(msg.table);
 
                     $('#div_course_title_attendance').html('');
-                    $('#div_course_title_attendance').append('<a href=""><h3>'+msg.course_fullname+'</h3></a>');
+                    $('#div_course_title_attendance').append('<a href=""><h4>'+msg.course_fullname+'</h4></a>');
                 },
                 dataType: "json",
                 cache: "false",
@@ -104,7 +104,7 @@ define(['jquery',
                     $("#table_grader").DataTable(msg.table);
 
                     $('#div_course_title_grades').html('');
-                    $('#div_course_title_grades').append('<h3>'+msg.course_fullname+'</h3>');
+                    $('#div_course_title_grades').append('<h4>'+msg.course_fullname+'</h4>');
                 },
                 dataType: "json",
                 cache: "false",
